@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    background: url('/images/background.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+    border-radius: 30px;
+    padding: 80px 86px;
+}
+
+.timer__title {
+    line-height: 47px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 40px;
+}
+
+.timer__content {
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+    font-size: 70px;
+    line-height: 82px;
+    color: #5e8229;
+}
+
+.timer__item {
+    text-align: center;
+}
+
+.timer__days {}
+
+.timer__value {}
+
+.timer__text {
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.separator {
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 9px;
+}
+
+.timer__hours {}
+
+.timer__minutes {}
+
+.timer__seconds {}
