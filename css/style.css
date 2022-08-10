@@ -2,7 +2,7 @@ body {
     font-family: Roboto;
     font-size: 40px;
     font-weight: 700;
-    background: url('/images/background.jpg') no-repeat;
+    background: url('../images/background.jpg') no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
